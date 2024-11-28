@@ -118,7 +118,7 @@
 	#define BOOT_TARGET_DHCP(func)
 #endif
 
-//fox.luo@2024.11.28 Modify the startup sequence
+/* fox.luo@2024.11.28 Modify the startup sequence */
 #define BOOT_TARGET_DEVICES(func) \
 	BOOT_TARGET_USB(func) \
 	BOOT_TARGET_EMMC(func) \
