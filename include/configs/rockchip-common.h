@@ -118,12 +118,13 @@
 	#define BOOT_TARGET_DHCP(func)
 #endif
 
+//fox.luo@2024.11.28 Modify the startup sequence
 #define BOOT_TARGET_DEVICES(func) \
 	BOOT_TARGET_USB(func) \
+	BOOT_TARGET_EMMC(func) \
 	BOOT_TARGET_SD(func) \
 	BOOT_TARGET_NVME(func) \
 	BOOT_TARGET_SCSI(func) \
-	BOOT_TARGET_EMMC(func) \
 	BOOT_TARGET_MTD(func) \
 	BOOT_TARGET_RKNAND(func) \
 	BOOT_TARGET_PXE(func) \
