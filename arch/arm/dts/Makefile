@@ -28,6 +28,8 @@ dtb-$(CONFIG_EXYNOS5) += exynos5250-arndale.dtb \
 	exynos5422-odroidxu3.dtb
 dtb-$(CONFIG_EXYNOS7420) += exynos7420-espresso7420.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += \
+	rk35x8-hugsun-x88pro-ddr4-v10.dtb \
+	rk3528-evb.dtb \
 	rk3036-sdk.dtb \
 	rk3066a-mk808.dtb \
 	rk3126-evb.dtb \
